@@ -18,6 +18,7 @@ namespace UserRegistrationReflection
             Console.WriteLine("Enter the password of the user");
             string password = Console.ReadLine();
             string resultTwo = UserValidation.ValidateDetails(password, PASSWORD_PATTERN);
+            Console.WriteLine(resultTwo);
             Console.ReadKey();
         }
     }
